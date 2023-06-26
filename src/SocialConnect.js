@@ -4,7 +4,7 @@ import React from "react"
 // so wrap
 export default function SocialConnect(props) {
     return (
-        <a className="text-xl" href={props.href} target="_blank" >
+        <a className="text-xl" href={props.href} target="_blank" rel="noreferrer" >
             <i className={`${props.icon} display-inline ml-2`}></i>
         </a>
     )
